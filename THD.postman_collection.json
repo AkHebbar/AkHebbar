@@ -1,0 +1,156 @@
+{
+	"info": {
+		"_postman_id": "b123bc44-3e19-4ec4-b592-d3c86c92b262",
+		"name": "THD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Activate",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Daniel_p_mcdonald@homedepot.com",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ACTION\": \"ACTIVATE\",\r\n    \"ORDER_NUMBER\": \"thd_code_20128\",\r\n    \"SHIPMENT_NUMBER\": \"thd_ship_20128\",\r\n    \"DELIVERY_START_TIME\": \"2021-5-17 20:12\",\r\n    \"DELIVERY_END_TIME\": \"2021-5-17 23:00\",\r\n    \"SITE\": \"7001\",\r\n    \"CUSTOMER_NAME\": \"Shivu DP THD3\",\r\n    \"ORDER_TYPE\": \"SO\",\r\n    \"ASSET_TYPE\": \"CAR1\",\r\n    \"SPEED_OPTION\": \"NEXT DAY\",\r\n    \"SERVICE_TYPE\": \"Curbside\",\r\n    \"SPECIAL_INSTRUCTIONS\": \"Safety is Important\",\r\n    \"VEHICLE_ID\": 16,\r\n    \"SHIP_FROM\": {\r\n        \"COMPANY_NAME\": \"ELLESMERE - 7001\",\r\n        \"FIRST_NAME\": \"ELLESMERE - 7001\",\r\n        \"LAST_NAME\": \"\",\r\n        \"BUILDING_TYPE\": \"\",\r\n        \"STREET_NUMBER\": \"428\",\r\n        \"STREET_NAME\": \"Banashankari 3rd Stage, Banashankari\",\r\n        \"CITY\": \"Bengaluru\",\r\n        \"PROVINCE\": \"Karnataka\",\r\n        \"POSTAL_CODE\": \"560085\",\r\n        \"COUNTRY\": \"India\",\r\n        \"PHONE_NUMBER\": \"4166091802\",\r\n        \"MOBILE_NUMBER\": \"9874859659\",\r\n        \"EMAIL_ID\": \"\"\r\n    },\r\n    \"SHIP_TO\": {\r\n        \"COMPANY_NAME\": \"Durga Prasad\",\r\n        \"FIRST_NAME\": \"Durga Prasad\",\r\n        \"LAST_NAME\": \"\",\r\n        \"BUILDING_TYPE\": \"HOUSE\",\r\n        \"STREET_NUMBER\": \"\",\r\n        \"STREET_NAME\": \"Kengeri\",\r\n        \"CITY\": \"Bengaluru\",\r\n        \"PROVINCE\": \"Karnataka\",\r\n        \"POSTAL_CODE\": \"560060\",\r\n        \"COUNTRY\": \"India\",\r\n        \"PHONE_NUMBER\": \"7788998082\",\r\n        \"MOBILE_NUMBER\": \"9878485896\",\r\n        \"EMAIL_ID\": \"\"\r\n    },\r\n    \"ADDITIONAL_INFO\": [],\r\n    \"ITEM\": [{\r\n            \"ITEM_NUMBER\": 1,\r\n            \"SKU_CODE\": \"000000001000100116\",\r\n            \"ITEM_DESCRIPTION\": \"1\\\" Diameter Carpet Base Cup\",\r\n            \"ARTICLE_QTY\": 20,\r\n            \"ARTICLE_UOM\": \"EA\",\r\n            \"ARTICLE_HEIGHT\": 2,\r\n            \"ARTICLE_HEIGHT_UOM\": \"IN\",\r\n            \"ARTICLE_LENGTH\": 2,\r\n            \"ARTICLE_LENGTH_UOM\": \"IN\",\r\n            \"ARTICLE_WIDTH\": 2,\r\n            \"ARTICLE_WIDTH_UOM\": \"IN\",\r\n            \"ARTICLE_VOLUME\": 0.01,\r\n            \"ARTICLE_VOLUME_UOM\": \"FT3\",\r\n            \"ARTICLE_WEIGHT\": 10,\r\n            \"ARTICLE_WEIGHT_UOM\": \"LB\",\r\n            \"ITEM_SPECIAL_INSTRUCTION\": \"\",\r\n            \"ADDITIONAL_INFO\": []\r\n        },\r\n        {\r\n            \"ITEM_NUMBER\": 2,\r\n            \"SKU_CODE\": \"000000001000100117\",\r\n            \"ITEM_DESCRIPTION\": \"2\\\" Diameter Glass Base Cup\",\r\n            \"ARTICLE_QTY\": 300,\r\n            \"ARTICLE_UOM\": \"EA\",\r\n            \"ARTICLE_HEIGHT\": 3,\r\n            \"ARTICLE_HEIGHT_UOM\": \"IN\",\r\n            \"ARTICLE_LENGTH\": 3,\r\n            \"ARTICLE_LENGTH_UOM\": \"IN\",\r\n            \"ARTICLE_WIDTH\": 3,\r\n            \"ARTICLE_WIDTH_UOM\": \"IN\",\r\n            \"ARTICLE_VOLUME\": 0.01,\r\n            \"ARTICLE_VOLUME_UOM\": \"FT3\",\r\n            \"ARTICLE_WEIGHT\": 12,\r\n            \"ARTICLE_WEIGHT_UOM\": \"LB\",\r\n            \"ITEM_SPECIAL_INSTRUCTION\": \"\",\r\n            \"ADDITIONAL_INFO\": []\r\n        },\r\n        {\r\n            \"ITEM_NUMBER\": 3,\r\n            \"SKU_CODE\": \"000000001000100117\",\r\n            \"ITEM_DESCRIPTION\": \"3\\\" Diameter Wooden Base Cup\",\r\n            \"ARTICLE_QTY\": 10,\r\n            \"ARTICLE_UOM\": \"EA\",\r\n            \"ARTICLE_HEIGHT\": 3,\r\n            \"ARTICLE_HEIGHT_UOM\": \"IN\",\r\n            \"ARTICLE_LENGTH\": 3,\r\n            \"ARTICLE_LENGTH_UOM\": \"IN\",\r\n            \"ARTICLE_WIDTH\": 3,\r\n            \"ARTICLE_WIDTH_UOM\": \"IN\",\r\n            \"ARTICLE_VOLUME\": 0.01,\r\n            \"ARTICLE_VOLUME_UOM\": \"FT3\",\r\n            \"ARTICLE_WEIGHT\": 12,\r\n            \"ARTICLE_WEIGHT_UOM\": \"LB\",\r\n            \"ITEM_SPECIAL_INSTRUCTION\": \"\",\r\n            \"ADDITIONAL_INFO\": []\r\n        },\r\n        {\r\n            \"ITEM_NUMBER\": 4,\r\n            \"SKU_CODE\": \"000000001000100117\",\r\n            \"ITEM_DESCRIPTION\": \"4\\\" Diameter Steel Base Cup\",\r\n            \"ARTICLE_QTY\": 10,\r\n            \"ARTICLE_UOM\": \"EA\",\r\n            \"ARTICLE_HEIGHT\": 3,\r\n            \"ARTICLE_HEIGHT_UOM\": \"IN\",\r\n            \"ARTICLE_LENGTH\": 3,\r\n            \"ARTICLE_LENGTH_UOM\": \"IN\",\r\n            \"ARTICLE_WIDTH\": 3,\r\n            \"ARTICLE_WIDTH_UOM\": \"IN\",\r\n            \"ARTICLE_VOLUME\": 0.01,\r\n            \"ARTICLE_VOLUME_UOM\": \"FT3\",\r\n            \"ARTICLE_WEIGHT\": 12,\r\n            \"ARTICLE_WEIGHT_UOM\": \"LB\",\r\n            \"ITEM_SPECIAL_INSTRUCTION\": \"\",\r\n            \"ADDITIONAL_INFO\": []\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://test3.gofor.io/api/delivery/activate",
+					"protocol": "https",
+					"host": [
+						"test3",
+						"gofor",
+						"io"
+					],
+					"path": [
+						"api",
+						"delivery",
+						"activate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "https://test7.gofor.io/api/delivery/activate",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Daniel_p_mcdonald@homedepot.com",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ACTION\": \"ACTIVATE\",\r\n    \"ORDER_NUMBER\": \"thd_code_20131203\",\r\n    \"SHIPMENT_NUMBER\": \"thd_ship_201203\",\r\n    \"DELIVERY_START_TIME\": \"2021-7-26 20:12\",\r\n    \"DELIVERY_END_TIME\": \"2021-7-26 23:00\",\r\n    \"SITE\": \"7001\",\r\n    \"CUSTOMER_NAME\": \"Shivu DP THD3\",\r\n    \"ORDER_TYPE\": \"SO\",\r\n    \"ASSET_TYPE\": \"CAR1\",\r\n    \"SPEED_OPTION\": \"NEXT DAY\",\r\n    \"SERVICE_TYPE\": \"Curbside\",\r\n    \"SPECIAL_INSTRUCTIONS\": \"Safety is Important\",\r\n    \"VEHICLE_ID\": 16,\r\n    \"SHIP_FROM\": {\r\n        \"COMPANY_NAME\": \"ELLESMERE - 7001\",\r\n        \"FIRST_NAME\": \"ELLESMERE - 7001\",\r\n        \"LAST_NAME\": \"\",\r\n        \"BUILDING_TYPE\": \"\",\r\n        \"STREET_NUMBER\": \"234\",\r\n        \"STREET_NAME\": \"Rideau Street\",\r\n        \"CITY\": \"Ottawa\",\r\n        \"PROVINCE\": \"ON\",\r\n        \"POSTAL_CODE\": \"K1N0A9\",\r\n        \"COUNTRY\": \"Canada\",\r\n        \"PHONE_NUMBER\": \"4166091802\",\r\n        \"MOBILE_NUMBER\": \"9874859659\",\r\n        \"EMAIL_ID\": \"\"\r\n    },\r\n    \"SHIP_TO\": {\r\n        \"COMPANY_NAME\": \"Durga Prasad\",\r\n        \"FIRST_NAME\": \"Durga Prasad\",\r\n        \"LAST_NAME\": \"\",\r\n        \"BUILDING_TYPE\": \"HOUSE\",\r\n        \"STREET_NUMBER\": \"900\",\r\n        \"STREET_NAME\": \"Morrison Dr\",\r\n        \"CITY\": \"Ottawa\",\r\n        \"PROVINCE\": \"ON\",\r\n        \"POSTAL_CODE\": \"K2H8K7\",\r\n        \"COUNTRY\": \"Canadad\",\r\n        \"PHONE_NUMBER\": \"7788998082\",\r\n        \"MOBILE_NUMBER\": \"9878485896\",\r\n        \"EMAIL_ID\": \"\"\r\n    },\r\n    \"ADDITIONAL_INFO\": [],\r\n    \"ITEM\": [{\r\n            \"ITEM_NUMBER\": 1,\r\n            \"SKU_CODE\": \"000000001000100116\",\r\n            \"ITEM_DESCRIPTION\": \"1\\\" Diameter Carpet Base Cup\",\r\n            \"ARTICLE_QTY\": 20,\r\n            \"ARTICLE_UOM\": \"EA\",\r\n            \"ARTICLE_HEIGHT\": 2,\r\n            \"ARTICLE_HEIGHT_UOM\": \"IN\",\r\n            \"ARTICLE_LENGTH\": 2,\r\n            \"ARTICLE_LENGTH_UOM\": \"IN\",\r\n            \"ARTICLE_WIDTH\": 2,\r\n            \"ARTICLE_WIDTH_UOM\": \"IN\",\r\n            \"ARTICLE_VOLUME\": 0.01,\r\n            \"ARTICLE_VOLUME_UOM\": \"FT3\",\r\n            \"ARTICLE_WEIGHT\": 10,\r\n            \"ARTICLE_WEIGHT_UOM\": \"LB\",\r\n            \"ITEM_SPECIAL_INSTRUCTION\": \"\",\r\n            \"ADDITIONAL_INFO\": []\r\n        },\r\n        {\r\n            \"ITEM_NUMBER\": 2,\r\n            \"SKU_CODE\": \"000000001000100117\",\r\n            \"ITEM_DESCRIPTION\": \"2\\\" Diameter Glass Base Cup\",\r\n            \"ARTICLE_QTY\": 300,\r\n            \"ARTICLE_UOM\": \"EA\",\r\n            \"ARTICLE_HEIGHT\": 3,\r\n            \"ARTICLE_HEIGHT_UOM\": \"IN\",\r\n            \"ARTICLE_LENGTH\": 3,\r\n            \"ARTICLE_LENGTH_UOM\": \"IN\",\r\n            \"ARTICLE_WIDTH\": 3,\r\n            \"ARTICLE_WIDTH_UOM\": \"IN\",\r\n            \"ARTICLE_VOLUME\": 0.01,\r\n            \"ARTICLE_VOLUME_UOM\": \"FT3\",\r\n            \"ARTICLE_WEIGHT\": 12,\r\n            \"ARTICLE_WEIGHT_UOM\": \"LB\",\r\n            \"ITEM_SPECIAL_INSTRUCTION\": \"\",\r\n            \"ADDITIONAL_INFO\": []\r\n        },\r\n        {\r\n            \"ITEM_NUMBER\": 3,\r\n            \"SKU_CODE\": \"000000001000100117\",\r\n            \"ITEM_DESCRIPTION\": \"3\\\" Diameter Wooden Base Cup\",\r\n            \"ARTICLE_QTY\": 10,\r\n            \"ARTICLE_UOM\": \"EA\",\r\n            \"ARTICLE_HEIGHT\": 3,\r\n            \"ARTICLE_HEIGHT_UOM\": \"IN\",\r\n            \"ARTICLE_LENGTH\": 3,\r\n            \"ARTICLE_LENGTH_UOM\": \"IN\",\r\n            \"ARTICLE_WIDTH\": 3,\r\n            \"ARTICLE_WIDTH_UOM\": \"IN\",\r\n            \"ARTICLE_VOLUME\": 0.01,\r\n            \"ARTICLE_VOLUME_UOM\": \"FT3\",\r\n            \"ARTICLE_WEIGHT\": 12,\r\n            \"ARTICLE_WEIGHT_UOM\": \"LB\",\r\n            \"ITEM_SPECIAL_INSTRUCTION\": \"\",\r\n            \"ADDITIONAL_INFO\": []\r\n        },\r\n        {\r\n            \"ITEM_NUMBER\": 4,\r\n            \"SKU_CODE\": \"000000001000100117\",\r\n            \"ITEM_DESCRIPTION\": \"4\\\" Diameter Steel Base Cup\",\r\n            \"ARTICLE_QTY\": 10,\r\n            \"ARTICLE_UOM\": \"EA\",\r\n            \"ARTICLE_HEIGHT\": 3,\r\n            \"ARTICLE_HEIGHT_UOM\": \"IN\",\r\n            \"ARTICLE_LENGTH\": 3,\r\n            \"ARTICLE_LENGTH_UOM\": \"IN\",\r\n            \"ARTICLE_WIDTH\": 3,\r\n            \"ARTICLE_WIDTH_UOM\": \"IN\",\r\n            \"ARTICLE_VOLUME\": 0.01,\r\n            \"ARTICLE_VOLUME_UOM\": \"FT3\",\r\n            \"ARTICLE_WEIGHT\": 12,\r\n            \"ARTICLE_WEIGHT_UOM\": \"LB\",\r\n            \"ITEM_SPECIAL_INSTRUCTION\": \"\",\r\n            \"ADDITIONAL_INFO\": []\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://test3.gofor.io/api/delivery/activate",
+					"protocol": "https",
+					"host": [
+						"test3",
+						"gofor",
+						"io"
+					],
+					"path": [
+						"api",
+						"delivery",
+						"activate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://test7.gofor.io/api/delivery/activate",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Daniel_p_mcdonald@homedepot.com",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ACTION\": \"ACTIVATE\",\r\n    \"ORDER_NUMBER\": \"thd_code_20131012\",\r\n    \"SHIPMENT_NUMBER\": \"thd_ship_20112\",\r\n    \"DELIVERY_START_TIME\": \"2021-7-07 20:12\",\r\n    \"DELIVERY_END_TIME\": \"2021-7-07 23:00\",\r\n    \"SITE\": \"7001\",\r\n    \"CUSTOMER_NAME\": \"Shivu DP THD3\",\r\n    \"ORDER_TYPE\": \"SO\",\r\n    \"ASSET_TYPE\": \"CAR1\",\r\n    \"SPEED_OPTION\": \"NEXT DAY\",\r\n    \"SERVICE_TYPE\": \"Curbside\",\r\n    \"SPECIAL_INSTRUCTIONS\": \"Safety is Important\",\r\n    \"VEHICLE_ID\": 16,\r\n    \"SHIP_FROM\": {\r\n        \"COMPANY_NAME\": \"ELLESMERE - 7001\",\r\n        \"FIRST_NAME\": \"ELLESMERE - 7001\",\r\n        \"LAST_NAME\": \"\",\r\n        \"BUILDING_TYPE\": \"\",\r\n        \"STREET_NUMBER\": \"234\",\r\n        \"STREET_NAME\": \"Rideau Street\",\r\n        \"CITY\": \"Ottawa\",\r\n        \"PROVINCE\": \"ON\",\r\n        \"POSTAL_CODE\": \"K1N0A9\",\r\n        \"COUNTRY\": \"Canada\",\r\n        \"PHONE_NUMBER\": \"4166091802\",\r\n        \"MOBILE_NUMBER\": \"9874859659\",\r\n        \"EMAIL_ID\": \"\"\r\n    },\r\n    \"SHIP_TO\": {\r\n        \"COMPANY_NAME\": \"Durga Prasad\",\r\n        \"FIRST_NAME\": \"Durga Prasad\",\r\n        \"LAST_NAME\": \"\",\r\n        \"BUILDING_TYPE\": \"HOUSE\",\r\n        \"STREET_NUMBER\": \"900\",\r\n        \"STREET_NAME\": \"Morrison Dr\",\r\n        \"CITY\": \"Ottawa\",\r\n        \"PROVINCE\": \"ON\",\r\n        \"POSTAL_CODE\": \"K2H8K7\",\r\n        \"COUNTRY\": \"Canadad\",\r\n        \"PHONE_NUMBER\": \"7788998082\",\r\n        \"MOBILE_NUMBER\": \"9878485896\",\r\n        \"EMAIL_ID\": \"\"\r\n    },\r\n    \"ADDITIONAL_INFO\": [],\r\n    \"ITEM\": [{\r\n            \"ITEM_NUMBER\": 1,\r\n            \"SKU_CODE\": \"000000001000100116\",\r\n            \"ITEM_DESCRIPTION\": \"1\\\" Diameter Carpet Base Cup\",\r\n            \"ARTICLE_QTY\": 20,\r\n            \"ARTICLE_UOM\": \"EA\",\r\n            \"ARTICLE_HEIGHT\": 2,\r\n            \"ARTICLE_HEIGHT_UOM\": \"IN\",\r\n            \"ARTICLE_LENGTH\": 2,\r\n            \"ARTICLE_LENGTH_UOM\": \"IN\",\r\n            \"ARTICLE_WIDTH\": 2,\r\n            \"ARTICLE_WIDTH_UOM\": \"IN\",\r\n            \"ARTICLE_VOLUME\": 0.01,\r\n            \"ARTICLE_VOLUME_UOM\": \"FT3\",\r\n            \"ARTICLE_WEIGHT\": 10,\r\n            \"ARTICLE_WEIGHT_UOM\": \"LB\",\r\n            \"ITEM_SPECIAL_INSTRUCTION\": \"\",\r\n            \"ADDITIONAL_INFO\": []\r\n        },\r\n        {\r\n            \"ITEM_NUMBER\": 2,\r\n            \"SKU_CODE\": \"000000001000100117\",\r\n            \"ITEM_DESCRIPTION\": \"2\\\" Diameter Glass Base Cup\",\r\n            \"ARTICLE_QTY\": 300,\r\n            \"ARTICLE_UOM\": \"EA\",\r\n            \"ARTICLE_HEIGHT\": 3,\r\n            \"ARTICLE_HEIGHT_UOM\": \"IN\",\r\n            \"ARTICLE_LENGTH\": 3,\r\n            \"ARTICLE_LENGTH_UOM\": \"IN\",\r\n            \"ARTICLE_WIDTH\": 3,\r\n            \"ARTICLE_WIDTH_UOM\": \"IN\",\r\n            \"ARTICLE_VOLUME\": 0.01,\r\n            \"ARTICLE_VOLUME_UOM\": \"FT3\",\r\n            \"ARTICLE_WEIGHT\": 12,\r\n            \"ARTICLE_WEIGHT_UOM\": \"LB\",\r\n            \"ITEM_SPECIAL_INSTRUCTION\": \"\",\r\n            \"ADDITIONAL_INFO\": []\r\n        },\r\n        {\r\n            \"ITEM_NUMBER\": 3,\r\n            \"SKU_CODE\": \"000000001000100117\",\r\n            \"ITEM_DESCRIPTION\": \"3\\\" Diameter Wooden Base Cup\",\r\n            \"ARTICLE_QTY\": 10,\r\n            \"ARTICLE_UOM\": \"EA\",\r\n            \"ARTICLE_HEIGHT\": 3,\r\n            \"ARTICLE_HEIGHT_UOM\": \"IN\",\r\n            \"ARTICLE_LENGTH\": 3,\r\n            \"ARTICLE_LENGTH_UOM\": \"IN\",\r\n            \"ARTICLE_WIDTH\": 3,\r\n            \"ARTICLE_WIDTH_UOM\": \"IN\",\r\n            \"ARTICLE_VOLUME\": 0.01,\r\n            \"ARTICLE_VOLUME_UOM\": \"FT3\",\r\n            \"ARTICLE_WEIGHT\": 12,\r\n            \"ARTICLE_WEIGHT_UOM\": \"LB\",\r\n            \"ITEM_SPECIAL_INSTRUCTION\": \"\",\r\n            \"ADDITIONAL_INFO\": []\r\n        },\r\n        {\r\n            \"ITEM_NUMBER\": 4,\r\n            \"SKU_CODE\": \"000000001000100117\",\r\n            \"ITEM_DESCRIPTION\": \"4\\\" Diameter Steel Base Cup\",\r\n            \"ARTICLE_QTY\": 10,\r\n            \"ARTICLE_UOM\": \"EA\",\r\n            \"ARTICLE_HEIGHT\": 3,\r\n            \"ARTICLE_HEIGHT_UOM\": \"IN\",\r\n            \"ARTICLE_LENGTH\": 3,\r\n            \"ARTICLE_LENGTH_UOM\": \"IN\",\r\n            \"ARTICLE_WIDTH\": 3,\r\n            \"ARTICLE_WIDTH_UOM\": \"IN\",\r\n            \"ARTICLE_VOLUME\": 0.01,\r\n            \"ARTICLE_VOLUME_UOM\": \"FT3\",\r\n            \"ARTICLE_WEIGHT\": 12,\r\n            \"ARTICLE_WEIGHT_UOM\": \"LB\",\r\n            \"ITEM_SPECIAL_INSTRUCTION\": \"\",\r\n            \"ADDITIONAL_INFO\": []\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://test7.gofor.io/api/delivery/activate",
+					"protocol": "https",
+					"host": [
+						"test7",
+						"gofor",
+						"io"
+					],
+					"path": [
+						"api",
+						"delivery",
+						"activate"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
